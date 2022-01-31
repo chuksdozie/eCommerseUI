@@ -1,7 +1,7 @@
 ![](ReadmeImg/Ecommerce-ui.png)
+![](ReadmeImg/Ecommerui-ful.png)
 
-a picture of the eCommerce homepage
-
+pictures of the e-commerce webpage built wit react
 
 
 
