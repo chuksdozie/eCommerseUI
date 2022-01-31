@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import BestSellerSection from "./BestSellerSection";
 import CallToActionSection from "./CallToActionSec";
 import DealProductSec from "./DealProductSec";
 import EzoneSection from "./EzoneSection";

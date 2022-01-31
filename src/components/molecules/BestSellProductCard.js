@@ -11,7 +11,6 @@ const BestSellProductCard = (props) => {
     sAlt,
     sHeight,
     sWidth,
-    sText,
     productNameTxt,
     priceTxt,
     priceSlashTxt,

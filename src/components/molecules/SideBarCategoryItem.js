@@ -5,7 +5,7 @@ import IconImage from "../atoms/IconImage";
 import RightArrrowIcon from "../../resources/icons/icons8-right-arrow.png";
 
 const SideBarCategoryItem = (props) => {
-  const { mIcon, mAlt, mText, mHeight, mWidth, lHeight, lWidth } = props;
+  const { mIcon, mAlt, mText, mHeight, mWidth } = props;
   return (
     <SideBarItemContainer>
       <CategoryWrapper>
@@ -27,9 +27,6 @@ const SideBarCategoryItem = (props) => {
     </SideBarItemContainer>
   );
 };
-{
-  /* <MainText text="hello" color={"red"} weight={"700"} fontSize={"34px"} /> */
-}
 
 export default SideBarCategoryItem;
 

@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import MainText from "../atoms/MainText";
 import BestSellerSection from "./BestSellerSection";
 
 const DealProductSec = () => {
