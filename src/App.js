@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import BestSellerSection from "./components/organisms/BestSellerSection";
+import MainSec from "./components/organisms/MainSec";
+import SecondarySec from "./components/organisms/SecondarySec";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container>
+        <MainSec />
+        <BestSellerSection sectionName="Best Seller" />
+        <SecondarySec />
+      </Container>
+
+      {/* <MainText text="hello" color={"red"} weight={"700"} fontSize={"34px"} /> */}
     </div>
   );
-}
+};
 
 export default App;
+
+const Container = styled.div`
+  width: 100%;
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 40px 46px;
+`;
