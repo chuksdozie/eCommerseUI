@@ -1,4 +1,6 @@
-![](eCommerseUI/ReadmeImg/Ecommerce-ui.png)
+![](ReadmeImg/Ecommerce-ui.png)
+
+a picture of the eCommerce homepage
 
 
 
